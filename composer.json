@@ -24,7 +24,7 @@
         }
     ],
     "require": {
-        "php": "^8.0",
+        "php": "^8.1",
         "platformsh/symfonyflex-bridge": "^2.7",
         "sylius/paypal-plugin": "^1.5",
         "sylius/sylius": "^1.12",

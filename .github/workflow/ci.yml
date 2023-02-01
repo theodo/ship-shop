@@ -1,0 +1,24 @@
+name: GrumPHP CI check
+
+on:
+    pull_request:
+        branches: [ main ]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            ci:
+                runs-on: ubuntu-latest
+                steps:
+                      - uses: actions/checkout@v3
+                      -   name: Install dependencies
+                          uses: php-actions/composer@v6
+                          with:
+                              php_version: '8.1'
+                              php_extensions: intl exif gd fileinfo
+                      -   name: GrumPHP
+                          run: vendor/bin/grumphp run
+                  #- name: Run tests
+                  #  run: composer phpunit

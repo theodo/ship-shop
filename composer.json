@@ -73,7 +73,8 @@
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "phpstan/extension-installer": true,
             "symfony/thanks": false,
-            "symfony/runtime": true
+            "symfony/runtime": true,
+            "phpro/grumphp": true
         }
     },
     "extra": {

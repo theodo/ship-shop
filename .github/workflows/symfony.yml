@@ -32,6 +32,9 @@ jobs:
           ${{ runner.os }}-php-
     - name: Install Dependencies
       run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+    
+    - name: run phpstan
+      run: vendor/bin/phpstan analyse --no-progress --level max src tests
     - name: Create Database
       run: |
         mkdir -p data

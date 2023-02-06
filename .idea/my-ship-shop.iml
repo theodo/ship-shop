@@ -19,6 +19,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/amphp/parser" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/amphp/parallel" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/amphp/parallel-functions" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/nelmio/cors-bundle" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

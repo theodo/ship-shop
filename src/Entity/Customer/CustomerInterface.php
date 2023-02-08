@@ -7,5 +7,4 @@ interface CustomerInterface extends \Sylius\Component\Core\Model\CustomerInterfa
     public function getLoyaltyPoints(): int;
 
     public function setLoyaltyPoints(int $loyaltyPoints): void;
-
 }

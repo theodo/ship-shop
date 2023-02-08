@@ -7,19 +7,20 @@ namespace App\Entity\Order;
 use App\Entity\Customer\CustomerInterface;
 use Doctrine\ORM\Mapping as ORM;
 use Sylius\Component\Core\Model\Order as BaseOrder;
+
 /**
  * @ORM\Entity
  * @ORM\Table(name="sylius_order")
  */
 class Order extends BaseOrder implements OrderInterface
 {
+    /** @var CustomerInterface */
+    protected $customer;
+
     /**
      * @ORM\Column(type="integer")
      */
     private int $loyaltyPoints = 0;
-
-    /** @var CustomerInterface */
-    protected $customer;
 
     public function getLoyaltyPoints(): int
     {

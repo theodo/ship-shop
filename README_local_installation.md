@@ -9,7 +9,9 @@ Once the repository is created, clone it locally and change directory to the pro
 ## First Installation
 
 Install the project by running the following command:
-`make first-install`
+```shell
+ make first-install
+ ```
 This will install the required dependencies, start the containers, start a sylius project, populate a database, build the assets and start the Symfony server.
 
 If you want to run the commands manually, you can find them in the `Makefile`.
@@ -19,18 +21,24 @@ If you want to run the commands manually, you can find them in the `Makefile`.
 ### Start the Project
 
 If you modified the composer.json file, you need to run the following command:
-`make install`
+```shell
+make install
+```
 This will install the required dependencies.
 
 After the first installation, you can start the project by running the following command:
-`make start`
+```shell
+make start
+```
 This will start the containers and start the Symfony server.
 
 
 ### Stop the Project
 
 To stop the project, run the following command:
-`make stop`
+```shell
+make stop
+```
 
 ### Committing Changes
 

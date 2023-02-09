@@ -44,6 +44,7 @@ check-php:
 		exit 1; \
 	fi
 
-
 first-install: check-php install
 	bin/console sylius:install
+	yarn install
+	yarn build

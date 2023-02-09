@@ -10,16 +10,16 @@ Once you have an account, click the "Create from Scratch" button and give your p
 ##Step 3: Clone the Template
 Before you can use the Ship-Shop template, you need to clone it. If you haven't already, follow these steps:
 
-##Go to the Ship-Shop repository on Github.
+##Go to the Ship-Shop repository on GitHub.
 Click the "Use this template" green button.
-Create a new repository on Github using this template.
-##Step 4: Set Up Github Integration
-To integrate your new project with Github, follow these steps:
+Create a new repository on GitHub using this template.
+##Step 4: Set Up GitHub Integration
+To integrate your new project with GitHub, follow these steps:
 
 Click the gear icon (settings) on your Platform.sh project page.
 Go to the "Integrations" section.
-Click on "Github integration".
-Generate a new token on Github with the scopes read:org, repo, and admin:repo:hook. Make sure to save this token in a safe place, such as Dashlane.
+Click on "GitHub integration".
+Generate a new token on GitHub with the scopes read:org, repo, and admin:repo:hook. Make sure to save this token in a safe place, such as Dashlane.
 Enter the token on the Platform.sh integration step and select your project.
 ##Step 5: Wait and Check the URL
 After completing all the steps, wait for about 30 minutes. You can then check the URL of your project, which will be available on the left side of the project page on Platform.sh.

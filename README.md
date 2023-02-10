@@ -1,37 +1,26 @@
 <br />
-<!-- Platform.sh logo left -->
-<p align="left">
-    <a href="https://platform.sh">
-        <img src="https://platform.sh/logos/redesign/Platformsh_logo_black.svg" width="150px">
-    </a>
-</p>
-<br /><br />
-<!-- Template logo -->
-<p align="center">
-    <a href="https://github.com/directus/directus">
-        <img src="https://demo.sylius.com/assets/shop/img/logo.png" alt="Logo" width="300">
-    </a>
-</p>
-<!-- Template title -->
-<br/>
-<h2 align="center">Deploy Sylius on Platform.sh</h2>
+<h1 align="center">ShipShop</h1>
 
-<!-- Deploy on Platform.sh button -->
+<h2 align="center">:rocket: Your Sylius storefront is live within 30 minutes!</h2>
+
 <br />
-<p align="center">
-    <a href="https://console.platform.sh/projects/create-project?template=https://raw.githubusercontent.com/platformsh/template-builder/master/templates/sylius/.platform.template.yaml&utm_content=sylius&utm_source=github&utm_medium=button&utm_campaign=deploy_on_platform">
-        <img src="https://platform.sh/images/deploy/lg-blue.svg" alt="Deploy on Platform.sh" width="175px" />
-    </a>
-</p>
-<br/><br/>
 
 This template builds a Sylius application for Platform.sh, which can be used as a starting point for developing complex e-commerce applications.
 
 Sylius is a modern e-commerce solution for PHP, based on Symfony Framework.
 
+## How to Install the project locally
+You can check the documentation to [install locally](./README_local_installation.md)
+
+## How to deploy the project on Platform.sh
+
+You can check the project documentation to deploy on Platform.sh  [deploy on Platform.sh](./README_deploy_in_prod.md)
+
+
 ## Features
 
-- PHP 8.0
+- Sylius 1.12
+- PHP 8.1
 - MySQL 10.2
 - Automatic TLS certificates
 - composer-based build
@@ -55,4 +44,3 @@ The following changes have been made relative to a plain Sylius 1.11 project.  I
 - [Sylius Plus installation guide](https://docs.sylius.com/en/latest/cookbook/deployment/platform-sh.html#how-to-deploy-sylius-plus-to-platform-sh)
 - [Cron jos and additional tips](https://docs.sylius.com/en/latest/cookbook/deployment/platform-sh.html#dive-deeper)
 - [PHP on Platform.sh](https://docs.platform.sh/languages/php.html)
-

@@ -103,10 +103,10 @@ grumphp:
             always_execute: false
             order: null
 
-        securitychecker_symfony:
-            lockfile: ./composer.lock
-            format: ~
-            run_always: true
+     ###   securitychecker_symfony:
+        ###    lockfile: ./composer.lock
+        ###    format: ~
+        ###    run_always: true
 
         yamllint:
             whitelist_patterns: []

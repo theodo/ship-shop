@@ -13,6 +13,7 @@ install:
 
 clear:
 	bin/console cache:clear
+	make start
 
 create-migration:
 	bin/console doctrine:migrations:diff
@@ -45,6 +46,7 @@ check-php:
 	fi
 
 first-install: check-php install
+	docker-compose up -d
 	bin/console sylius:install
 	yarn install
 	yarn build
